@@ -3,6 +3,7 @@ $(function () {
     $('.discover').on('click', function () {
         console.log('Clicked Discover');
 
+        let options = {};
 
         options.acceptAllDevices = true;
 
